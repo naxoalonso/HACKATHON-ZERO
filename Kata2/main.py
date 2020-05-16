@@ -1,8 +1,9 @@
 precio = 3.49
-decuento = 1 - 0.6
+descuento = 1 - 0.6
 precio_con_descuento = precio * descuento 
 
 numero_de_barras = input ("Numero de barras vendiadas: ")
+numero_de_barras = int(numero_de_barras) 
 
 print ("Precio habitual " + str(precio))
 print ("descuento "+ str(precio_con_descuento))
